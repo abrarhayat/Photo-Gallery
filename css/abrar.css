@@ -6,10 +6,8 @@ span[class^="glyphicon"]{
     color: greenyellow;
 }
 
-.navbar-brand{
-    max-width: 75px;
-    margin: auto;
-    height: vh
+.logo img{
+    max-width: 2em;
 }
 
 .mainHeader{
