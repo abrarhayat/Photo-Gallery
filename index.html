@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Abrar's Gallery</title>
     <meta charset="UTF-8">
@@ -7,16 +8,20 @@
     <link rel="stylesheet" href="css/abrar.css">
     <link rel="icon" href="content/abrar_logo.png">
     <link rel="stylesheet" href="css/bootstrap-social.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <nav class="navbar navbar-inverse nav-static-top">
         <div class="container-fluid">
             <div class="logo">
-                <a class="navbar-brand" href="https://codepen.io/abrarhayat" target="_blank"><img class="img-responsive" src="content\abrar_logo.png"></a>
+                <a class="navbar-brand" href="https://codepen.io/abrarhayat" target="_blank"><img class="img-responsive"
+                        src="content\abrar_logo.png"></a>
             </div>
             <div class="navbar-header">
                 <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -25,14 +30,15 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar"> <!-- From .navbar-collapse class, we get this section even for the larger views -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <!-- From .navbar-collapse class, we get this section even for the larger views -->
                 <!-- content of the collapse from here -->
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#photos" data-toggle="tab">Wildlife</a></li>
                     <li><a href="#content1" data-toggle="tab">Street</a></li>
                     <li><a href="#content2" data-toggle="tab">Lifestyle</a></li>
                 </ul>
-                
+
                 <ul class="nav navbar-nav navbar-right">
                     <li><button class="btn-instagram" onclick="instagram()">Instagram</button></li>
                     <li><button class="btn-flickr" onclick="flickr()">Flickr</button></li>
@@ -41,45 +47,45 @@
             </div>
         </div>
     </nav>
-    
+
     <h1 class="mainHeader">Abrar's Gallery</h1>
-    
-    
-    <div class="tab-content"> <!-- These are the contents that will show up according to the href in the anchor tags -->
+
+    <div class="tab-content">
+        <!-- These are the contents that will show up according to the href in the anchor tags -->
         <div id='photos' class="tab-pane fade in active">
             <div class="container">
                 <h2>Wildlife Photos</h2>
                 <div id="mainPageCarousel" class="carousel slide" data-ride="carousel">
-                    
+
                     <!-- adding a wrapper div for the carousel content -->
                     <div class="carousel-inner">
                         <!-- this is the default content at the beginning of the slideshow, items don't show up until an active item is mentioned -->
-                        <div class="item active"> 
+                        <div class="item active">
                             <img src="content\abrar8.jpg" class="img-responsive" alt="Image1">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar9.jpg" class="img-responsive" alt="Image2">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar10.jpg" class="img-responsive" alt="Image3">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar11.jpg" class="img-responsive" alt="Image4">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar12.jpg" class="img-responsive" alt="Image5">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar25.jpg" class="img-responsive" alt="Image6">
                         </div>
-                        
+
                     </div>
-                    
+
                     <!-- adding the left and right carousel controls with anchor tag, takes the id of the carousel as href -->
                     <a class="left carousel-control" href="#mainPageCarousel" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left"></span><span class="sr-only">Previous</span>
@@ -87,7 +93,7 @@
                     <a class="right carousel-control" href="#mainPageCarousel" data-slide="next">
                         <span class="glyphicon glyphicon-chevron-right"></span><span class="sr-only">Next</span>
                     </a>
-                    
+
                     <!-- adding an indicator for navigating through the photos, the data-target is pointed towards the carousel id -->
                     <ol class="carousel-indicators">
                         <li class="active" data-target="#mainPageCarousel" data-slide-to="0"></li>
@@ -97,8 +103,8 @@
                         <li data-target="#mainPageCarousel" data-slide-to="4"></li>
                         <li data-target="#mainPageCarousel" data-slide-to="5"></li>
                     </ol>
-                    
-                </div> 
+
+                </div>
             </div>
         </div>
         <div id='dropdownContent1' class="tab-pane fade">
@@ -113,40 +119,40 @@
             <div class="container">
                 <h2>Street Photos</h2>
                 <div id="secondPageCarousel" class="carousel slide" data-ride="carousel">
-                    
+
                     <!-- adding a wrapper div for the carousel content -->
                     <div class="carousel-inner">
                         <!-- this is the default content at the beginning of the slideshow, items don't show up until an active item is mentioned -->
-                        <div class="item active"> 
+                        <div class="item active">
                             <img src="content\abrar13.jpg" class="img-responsive" alt="Image1">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar14.jpg" class="img-responsive" alt="Image2">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar15.jpg" class="img-responsive" alt="Image3">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar16.jpg" class="img-responsive" alt="Image4">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar17.jpg" class="img-responsive" alt="Image5">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar18.jpg" class="img-responsive" alt="Image6">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar26.jpg" class="img-responsive" alt="Image6">
                         </div>
-                        
+
                     </div>
-                    
+
                     <!-- adding the left and right carousel controls with anchor tag, takes the id of the carousel as href -->
                     <a class="left carousel-control" href="#secondPageCarousel" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left"></span><span class="sr-only">Previous</span>
@@ -154,7 +160,7 @@
                     <a class="right carousel-control" href="#secondPageCarousel" data-slide="next">
                         <span class="glyphicon glyphicon-chevron-right"></span><span class="sr-only">Next</span>
                     </a>
-                    
+
                     <!-- adding an indicator for navigating through the photos, the data-target is pointed towards the carousel id -->
                     <ol class="carousel-indicators">
                         <li class="active" data-target="#secondPageCarousel" data-slide-to="0"></li>
@@ -165,40 +171,40 @@
                         <li data-target="#secondPageCarousel" data-slide-to="5"></li>
                         <li data-target="#secondPageCarousel" data-slide-to="6"></li>
                     </ol>
-                    
+
                 </div>
-            </div> 
+            </div>
         </div>
         <div id="content2" class="tab-pane fade">
             <div class="container">
                 <h2>Lifestyle Photos</h2>
                 <div id="thirdPageCarousel" class="carousel slide" data-ride="carousel">
-                    
+
                     <!-- adding a wrapper div for the carousel content -->
                     <div class="carousel-inner">
                         <!-- this is the default content at the beginning of the slideshow, items don't show up until an active item is mentioned -->
-                        <div class="item active"> 
+                        <div class="item active">
                             <img src="content\abrar20.jpg" class="img-responsive" alt="Image1">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar21.jpg" class="img-responsive" alt="Image2">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar22.jpg" class="img-responsive" alt="Image3">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar23.jpg" class="img-responsive" alt="Image3">
                         </div>
-                        
+
                         <div class="item">
                             <img src="content\abrar24.jpg" class="img-responsive" alt="Image4">
                         </div>
-                        
+
                     </div>
-                    
+
                     <!-- adding the left and right carousel controls with anchor tag, takes the id of the carousel as href -->
                     <a class="left carousel-control" href="#thirdPageCarousel" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left"></span><span class="sr-only">Previous</span>
@@ -206,7 +212,7 @@
                     <a class="right carousel-control" href="#thirdPageCarousel" data-slide="next">
                         <span class="glyphicon glyphicon-chevron-right"></span><span class="sr-only">Next</span>
                     </a>
-                    
+
                     <!-- adding an indicator for navigating through the photos, the data-target is pointed towards the carousel id -->
                     <ol class="carousel-indicators">
                         <li class="active" data-target="#thirdPageCarousel" data-slide-to="0"></li>
@@ -215,16 +221,16 @@
                         <li data-target="#thirdPageCarousel" data-slide-to="3"></li>
                         <li data-target="#thirdPageCarousel" data-slide-to="4"></li>
                     </ol>
-                    
+
                 </div>
             </div>
         </div>
         <div id="content3" class="tab-pane fade">
             <h3>Content3 Info</h3>
             <p>Test Content From Content3 Tab</p>
-        </div>            
+        </div>
     </div>
-    
+
     <div id="footer">
         <p>Author: </p>
         <button class="btn-linkedin" onclick="linkedIn()">Abrar Hayat</button>
@@ -232,9 +238,9 @@
         <br>
         <p>This page was not designed for scaleable purposes, it is merely an experimental.</p>
     </div>
-    
+
     <script src="js/main.js"></script>
-    
+
 </body>
 
 </html>
