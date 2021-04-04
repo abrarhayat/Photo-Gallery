@@ -6,10 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/abrar.css">
-    <link rel="icon" href="content/abrar_logo.png">
+    <link rel="icon" href="content/abrar_logo_2021_neutral.png">
     <link rel="stylesheet" href="css/bootstrap-social.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
@@ -20,8 +21,8 @@
     <nav class="navbar navbar-inverse nav-static-top">
         <div class="container-fluid">
             <div class="logo">
-                <a class="navbar-brand" href="https://codepen.io/abrarhayat" target="_blank"><img class="img-responsive"
-                        src="content\abrar_logo.png"></a>
+                <a class="navbar-brand" href="https://github.com/abrarhayat" target="_blank"><img class="img-responsive"
+                        src="content\abrar_logo_2021_neutral.png"></a>
             </div>
             <div class="navbar-header">
                 <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -37,12 +38,6 @@
                     <li class="active"><a href="#photos" data-toggle="tab">Wildlife</a></li>
                     <li><a href="#content1" data-toggle="tab">Street</a></li>
                     <li><a href="#content2" data-toggle="tab">Lifestyle</a></li>
-                </ul>
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li><button class="btn-instagram" onclick="instagram()">Instagram</button></li>
-                    <li><button class="btn-flickr" onclick="flickr()">Flickr</button></li>
-                    <li><button class="btn-linkedin" onclick="linkedIn()">LinkedIn</button></li>
                 </ul>
             </div>
         </div>
@@ -232,8 +227,12 @@
     </div>
 
     <div id="footer">
-        <p>Author: </p>
-        <button class="btn-linkedin" onclick="linkedIn()">Abrar Hayat</button>
+        <p id="footer-text">Author: </p>
+        <button class="btn-github" onclick="github()"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;abrarhayat</button>
+        <button class="btn-linkedin" onclick="linkedIn()"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;&nbsp;Abrar
+            Hayat</button>
+        <button class="btn-instagram" onclick="instagram()"><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;abrarhayat</button>
+        <button class="btn-flickr" onclick="flickr()"> <i class="fa fa-flickr" aria-hidden="true"></i>&nbsp;Abrar Hayat</button>
         <br>
         <br>
         <p>This page was not designed for scaleable purposes, it is merely an experimental.</p>

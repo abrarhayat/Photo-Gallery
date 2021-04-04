@@ -37,6 +37,10 @@ h1, h2, h3, p, #footer{
     padding-top: 10%;
 }
 
+button {
+    padding: 1rem;
+}
+
 @media all and (min-width: 800px){
     .tab-content .container{
         width: 70%;
